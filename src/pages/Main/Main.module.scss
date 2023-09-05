@@ -1,0 +1,15 @@
+@import 'styles/var';
+.main {
+    min-height: $screen_height;
+    width: $screen_width;
+    background-color: #2b2b2b;
+}
+
+.center {
+    height: $screen_height;
+    width: $screen_width;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
